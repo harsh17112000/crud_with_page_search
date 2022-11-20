@@ -56,7 +56,7 @@ router.get("/getdata", async (req, res) => {
     // put all query params here
     const query = {
         name: { $regex: search }
-    } // here we add multiple query
+    } // here we add multiple quer
 
     try {
 
